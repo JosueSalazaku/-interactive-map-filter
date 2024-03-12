@@ -1,1 +1,1 @@
-# -interactive-map-filter
+# Interactive map filter
