@@ -1,8 +1,9 @@
 <template>
-    <div ref="chart" style="width: 100%; height: 400px;"></div>
+    <div ref="chart"></div>
   </template>
   
   <script>
+  import axios from 'axios';
   import * as echarts from 'echarts';
   
   export default {
