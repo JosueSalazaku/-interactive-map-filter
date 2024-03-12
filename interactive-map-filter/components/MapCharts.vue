@@ -7,9 +7,15 @@
 <script setup>
 import * as echarts from 'echarts';
 
-export defaults {
-    
+export default {
+    data() {
+        return {
+            chart: null,
+        };
+    },
+    mounted() {
+        this.chart = echarts.init(this.$refs.chart)
+    },
 }
-
 </script>
 
