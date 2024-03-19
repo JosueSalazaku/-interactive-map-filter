@@ -5,6 +5,7 @@
   <script>
   import axios from 'axios';
   import * as echarts from 'echarts';
+  import EuropeCountriesPovStats from '~/CountriesStats';
   
   export default {
     data() {
