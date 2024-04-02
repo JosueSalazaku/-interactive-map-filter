@@ -3,7 +3,7 @@
 
     <h1 class="text-3xl font-bold text-orange-500">
     Hello world!
-
+    <MapFilters/>
     <MapCharts/>
   </h1>
   </div>

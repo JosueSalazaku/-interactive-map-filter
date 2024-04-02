@@ -1,6 +1,5 @@
 <template>
     <div>
-        <!-- filter UI here -->
         <select v-model="selectedOptions" @change="handleFilterChange">
             <option value="option1">Option 1</option>
             <option value="option2">Option 2</option>
